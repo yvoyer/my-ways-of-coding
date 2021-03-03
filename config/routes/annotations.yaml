@@ -1,0 +1,7 @@
+controllers:
+    resource: ../../src/IssueTracking/Infrastructure/Symfony/Http/Controller/
+    type: annotation
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
